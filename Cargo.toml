@@ -1,0 +1,19 @@
+[workspace]
+resolver = "2"
+
+[package]
+description = "Data Interchange Format and Network Protocol Implementations"
+edition = "2024"
+include = [
+  "Cargo.toml",
+  "src/**/*"
+]
+name = "data_interchange"
+publish = false
+rust-version = "1.88.0"
+version = "1.0.0"
+
+[[bin]]
+name = "htdi"
+path = "src/main.rs"
+
